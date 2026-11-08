@@ -1,0 +1,11 @@
+{
+  "name": "littlewallstreet",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev"
+  }
+}
